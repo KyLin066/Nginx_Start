@@ -1,0 +1,149 @@
+2023/03/31 08:48:59 [error] 4956#8484: *1 CreateFile() "D:\nginx-1.23.4/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/03/31 08:50:42 [notice] 16852#12008: signal process started
+2023/04/02 19:28:01 [error] 15520#16800: *1 CreateFile() "D:\nginx-1.23.4/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.chenhanlin.com, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/04/02 19:30:24 [error] 15520#16800: *7 CreateFile() "D:\nginx-1.23.4/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.chenhanlin.com, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/04/03 08:51:49 [error] 12648#14776: *1 CreateFile() "D:\nginx-1.23.4/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.chenhanlin.com, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/04/03 09:24:52 [notice] 11508#17292: signal process started
+2023/04/03 09:24:59 [error] 14612#10488: *4 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: www.chenhanlin.com, request: "GET / HTTP/1.1", upstream: "http://[::1]:9999/", host: "localhost"
+2023/04/03 09:25:01 [error] 14612#10488: *4 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: www.chenhanlin.com, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:9999/", host: "localhost"
+2023/04/03 09:25:12 [error] 14612#10488: *4 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: www.chenhanlin.com, request: "GET / HTTP/1.1", upstream: "http://[::1]:9999/", host: "localhost"
+2023/04/03 09:25:15 [error] 14612#10488: *4 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: www.chenhanlin.com, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:9999/", host: "localhost"
+2023/04/03 09:26:15 [notice] 17524#17528: signal process started
+2023/04/03 10:38:32 [notice] 7224#12856: signal process started
+2023/04/03 10:39:32 [notice] 2460#2840: signal process started
+2023/04/03 10:41:23 [notice] 10600#2568: signal process started
+2023/04/03 11:00:01 [error] 15504#17320: *27 CreateFile() "D:\nginx-1.23.4/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.chenhanlin.com, request: "GET /favicon.ico HTTP/1.1", host: "www.chenhanlin.com", referrer: "http://www.chenhanlin.com/"
+2023/04/03 11:04:21 [notice] 15384#16696: signal process started
+2023/04/03 11:04:45 [error] 13244#9460: *31 CreateFile() "D:\nginx-1.23.4/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /favicon.ico HTTP/1.1", host: "www.kylin.com", referrer: "http://www.kylin.com/"
+2023/04/03 11:10:32 [notice] 2812#15612: signal process started
+2023/04/03 11:13:42 [notice] 576#15468: signal process started
+2023/04/03 11:40:43 [notice] 11044#5516: signal process started
+2023/04/03 11:40:58 [error] 5996#3124: *8 CreateFile() "D:/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 11:40:59 [error] 5996#3124: *8 CreateFile() "D:/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 11:41:12 [error] 5996#3124: *8 CreateFile() "D:/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 11:46:13 [error] 5996#3124: *10 CreateFile() "D:/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 11:46:15 [error] 5996#3124: *10 CreateFile() "D:/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 11:46:23 [notice] 17824#11940: signal process started
+2023/04/03 11:46:28 [error] 5996#3124: *11 CreateFile() "D:/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 11:46:29 [error] 14860#11196: *12 CreateFile() "D:\nginx-1.23.4/html/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 11:46:29 [error] 14860#11196: *12 CreateFile() "D:\nginx-1.23.4/html/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 11:46:30 [error] 14860#11196: *12 CreateFile() "D:\nginx-1.23.4/html/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 11:46:30 [error] 14860#11196: *12 CreateFile() "D:\nginx-1.23.4/html/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 11:46:30 [error] 14860#11196: *12 CreateFile() "D:\nginx-1.23.4/html/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 11:46:30 [error] 14860#11196: *12 CreateFile() "D:\nginx-1.23.4/html/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 11:46:30 [error] 14860#11196: *12 CreateFile() "D:\nginx-1.23.4/html/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 11:46:43 [error] 14860#11196: *12 CreateFile() "D:\nginx-1.23.4/html/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 11:56:13 [notice] 4072#11776: signal process started
+2023/04/03 11:57:03 [error] 8992#11176: *14 CreateFile() "D:\nginx-1.23.4/html/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 12:03:05 [notice] 3376#6124: signal process started
+2023/04/03 12:03:16 [error] 4264#13004: *16 "D:/abc/abc.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc/ HTTP/1.1", host: "www.kylin.com"
+2023/04/03 12:03:31 [error] 4264#13004: *18 "D:/abc/abc.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc/ HTTP/1.1", host: "www.kylin.com"
+2023/04/03 12:03:33 [error] 4264#13004: *18 "D:/abc/abc.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc/ HTTP/1.1", host: "www.kylin.com"
+2023/04/03 12:03:39 [error] 4264#13004: *18 CreateFile() "D:/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 14:09:43 [error] 4264#13004: *20 CreateFile() "D:/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 14:38:27 [emerg] 14468#2656: invalid URL prefix in D:\nginx-1.23.4/conf/nginx.conf:103
+2023/04/03 14:38:51 [notice] 11864#14856: signal process started
+2023/04/03 14:39:01 [error] 6724#13916: *24 CreateFile() "D:\nginx-1.23.4/html/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 14:39:19 [error] 6724#13916: *24 CreateFile() "D:\nginx-1.23.4/html/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 14:39:42 [emerg] 856#2480: invalid location modifier "/" in D:\nginx-1.23.4/conf/nginx.conf:101
+2023/04/03 14:39:51 [notice] 12168#14584: signal process started
+2023/04/03 14:39:55 [error] 6724#13916: *25 CreateFile() "D:\nginx-1.23.4/html/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 15:05:50 [notice] 844#7564: signal process started
+2023/04/03 15:45:35 [notice] 7860#8252: signal process started
+2023/04/03 15:45:41 [error] 8728#13152: *35 rewrite or internal redirection cycle while processing "/abc.html", client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 15:46:07 [error] 8728#13152: *36 rewrite or internal redirection cycle while processing "/abc.html", client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 15:56:13 [notice] 14308#2116: signal process started
+2023/04/03 16:26:53 [notice] 4580#13160: signal process started
+2023/04/03 16:33:46 [notice] 14432#17800: signal process started
+2023/04/03 16:52:40 [notice] 15504#9200: signal process started
+2023/04/03 16:53:04 [error] 7900#9372: *51 CreateFile() "D:\nginx-1.23.4/html/ABC" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /ABC HTTP/1.1", host: "www.kylin.com"
+2023/04/03 16:54:13 [emerg] 7560#13328: invalid location modifier "~=" in D:\nginx-1.23.4/conf/nginx.conf:96
+2023/04/03 16:54:38 [notice] 9832#17876: signal process started
+2023/04/03 16:55:28 [error] 8744#13020: *53 CreateFile() "D:\nginx-1.23.4/html/abca" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abca HTTP/1.1", host: "www.kylin.com"
+2023/04/03 16:55:42 [error] 8744#13020: *53 "D:\nginx-1.23.4/html/abc/kylin.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc/ HTTP/1.1", host: "www.kylin.com"
+2023/04/03 16:56:02 [error] 8744#13020: *53 "D:\nginx-1.23.4/html/abc/kylin.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc/ HTTP/1.1", host: "www.kylin.com"
+2023/04/03 16:56:30 [notice] 11296#2960: signal process started
+2023/04/03 16:56:35 [error] 8744#13020: *55 "D:\nginx-1.23.4/html/abc/kylin.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc/ HTTP/1.1", host: "www.kylin.com"
+2023/04/03 16:56:57 [error] 10968#18312: *56 CreateFile() "D:\nginx-1.23.4/html/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/03 17:00:04 [notice] 2788#1964: signal process started
+2023/04/03 17:01:00 [error] 8572#11180: *58 CreateFile() "D:\nginx-1.23.4/html/DEF" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /DEF HTTP/1.1", host: "www.kylin.com"
+2023/04/03 17:01:05 [error] 8572#11180: *58 CreateFile() "D:\nginx-1.23.4/html/def" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /def HTTP/1.1", host: "www.kylin.com"
+2023/04/03 17:01:08 [error] 8572#11180: *58 CreateFile() "D:\nginx-1.23.4/html/def" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /def HTTP/1.1", host: "www.kylin.com"
+2023/04/03 17:01:11 [error] 8572#11180: *58 CreateFile() "D:\nginx-1.23.4/html/def" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /def HTTP/1.1", host: "www.kylin.com"
+2023/04/03 17:01:54 [error] 8572#11180: *58 CreateFile() "D:\nginx-1.23.4/html/def" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /def HTTP/1.1", host: "www.kylin.com"
+2023/04/03 17:02:39 [notice] 16716#12756: signal process started
+2023/04/03 17:02:43 [error] 8572#11180: *60 CreateFile() "D:\nginx-1.23.4/html/def" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /def HTTP/1.1", host: "www.kylin.com"
+2023/04/03 17:02:44 [error] 6996#13432: *61 CreateFile() "D:\nginx-1.23.4/html/def" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /def HTTP/1.1", host: "www.kylin.com"
+2023/04/03 17:02:44 [error] 6996#13432: *61 CreateFile() "D:\nginx-1.23.4/html/def" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /def HTTP/1.1", host: "www.kylin.com"
+2023/04/03 17:02:45 [error] 6996#13432: *61 CreateFile() "D:\nginx-1.23.4/html/def" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /def HTTP/1.1", host: "www.kylin.com"
+2023/04/03 17:02:45 [error] 6996#13432: *61 CreateFile() "D:\nginx-1.23.4/html/def" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /def HTTP/1.1", host: "www.kylin.com"
+2023/04/03 17:02:45 [error] 6996#13432: *61 CreateFile() "D:\nginx-1.23.4/html/def" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /def HTTP/1.1", host: "www.kylin.com"
+2023/04/03 17:02:45 [error] 6996#13432: *61 CreateFile() "D:\nginx-1.23.4/html/def" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /def HTTP/1.1", host: "www.kylin.com"
+2023/04/03 17:02:45 [error] 6996#13432: *61 CreateFile() "D:\nginx-1.23.4/html/def" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /def HTTP/1.1", host: "www.kylin.com"
+2023/04/03 17:02:45 [error] 6996#13432: *61 CreateFile() "D:\nginx-1.23.4/html/def" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /def HTTP/1.1", host: "www.kylin.com"
+2023/04/03 17:02:46 [error] 6996#13432: *61 CreateFile() "D:\nginx-1.23.4/html/def" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /def HTTP/1.1", host: "www.kylin.com"
+2023/04/03 17:02:49 [error] 6996#13432: *61 CreateFile() "D:\nginx-1.23.4/html/def" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /def HTTP/1.1", host: "www.kylin.com"
+2023/04/03 17:03:00 [error] 6996#13432: *61 CreateFile() "D:\nginx-1.23.4/html/def" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /def HTTP/1.1", host: "www.kylin.com"
+2023/04/03 17:03:46 [notice] 11776#17472: signal process started
+2023/04/03 17:07:09 [emerg] 11520#9640: invalid number of arguments in "location" directive in D:\nginx-1.23.4/conf/nginx.conf:101
+2023/04/03 17:08:13 [emerg] 11092#17688: invalid number of arguments in "location" directive in D:\nginx-1.23.4/conf/nginx.conf:101
+2023/04/03 17:08:45 [notice] 14716#3060: signal process started
+2023/04/03 17:16:23 [emerg] 18052#10968: invalid location modifier "=~" in D:\nginx-1.23.4/conf/nginx.conf:101
+2023/04/04 09:18:08 [error] 10608#5516: *1 CreateFile() "D:\nginx-1.23.4/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /favicon.ico HTTP/1.1", host: "www.kylin.com", referrer: "http://www.kylin.com/"
+2023/04/04 09:34:29 [emerg] 17400#2732: invalid location modifier "\=" in D:\nginx-1.23.4/conf/nginx.conf:96
+2023/04/04 09:37:22 [notice] 10952#2824: signal process started
+2023/04/04 09:39:04 [notice] 11776#11828: signal process started
+2023/04/04 09:42:25 [notice] 5104#12244: signal process started
+2023/04/04 11:35:39 [notice] 8864#9044: signal process started
+2023/04/04 15:11:18 [notice] 15292#7556: signal process started
+2023/04/04 15:25:52 [notice] 3920#16956: signal process started
+2023/04/04 15:28:03 [emerg] 11776#2704: invalid location modifier "/~" in D:\nginx-1.23.4/conf/nginx.conf:96
+2023/04/06 09:42:13 [error] 8300#17164: *1 CreateFile() "D:\nginx-1.23.4/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /favicon.ico HTTP/1.1", host: "www.kylin.com", referrer: "http://www.kylin.com/"
+2023/04/06 09:42:23 [error] 8300#17164: *1 CreateFile() "D:\nginx-1.23.4/html/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/06 09:42:47 [error] 8300#17164: *1 CreateFile() "D:\nginx-1.23.4/html/abc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abc HTTP/1.1", host: "www.kylin.com"
+2023/04/06 09:45:48 [notice] 6944#2832: signal process started
+2023/04/06 09:46:42 [notice] 9532#2928: signal process started
+2023/04/06 09:46:42 [error] 9532#2928: CreateFile() "D:\nginx-1.23.4/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/04/06 09:47:36 [notice] 6988#3544: signal process started
+2023/04/06 09:47:36 [error] 6988#3544: CreateFile() "D:\nginx-1.23.4/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/04/06 09:48:03 [notice] 14432#16628: signal process started
+2023/04/06 09:48:03 [error] 14432#16628: CreateFile() "D:\nginx-1.23.4/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/04/06 09:49:08 [notice] 10904#14088: signal process started
+2023/04/06 09:49:08 [error] 10904#14088: CreateFile() "D:\nginx-1.23.4/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/04/06 09:50:29 [notice] 11452#6796: signal process started
+2023/04/06 10:43:41 [notice] 12008#8796: signal process started
+2023/04/06 14:10:43 [emerg] 12600#7828: invalid location modifier "[=]" in D:\nginx-1.23.4/conf/nginx.conf:101
+2023/04/06 14:13:01 [notice] 16352#13868: signal process started
+2023/04/06 14:13:06 [error] 8568#9900: *3 CreateFile() "D:\nginx-1.23.4/html/abcd" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abcd HTTP/1.1", host: "www.kylin.com"
+2023/04/06 14:13:59 [notice] 2484#2680: signal process started
+2023/04/06 14:14:04 [error] 5076#15208: *4 CreateFile() "D:\nginx-1.23.4/html/abcd" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abcd HTTP/1.1", host: "www.kylin.com"
+2023/04/06 14:14:18 [error] 5076#15208: *4 CreateFile() "D:\nginx-1.23.4/html/defe" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /defe HTTP/1.1", host: "www.kylin.com"
+2023/04/06 14:21:14 [error] 5076#15208: *5 CreateFile() "D:\nginx-1.23.4/html/abcd" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abcd HTTP/1.1", host: "www.kylin.com"
+2023/04/06 14:22:42 [error] 5076#15208: *6 CreateFile() "D:\nginx-1.23.4/html/abcd" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abcd HTTP/1.1", host: "www.kylin.com"
+2023/04/06 14:28:00 [error] 5076#15208: *7 CreateFile() "D:\nginx-1.23.4/html/abcd" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abcd HTTP/1.1", host: "www.kylin.com"
+2023/04/06 14:28:08 [error] 5076#15208: *7 CreateFile() "D:\nginx-1.23.4/html/abcd" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abcd HTTP/1.1", host: "www.kylin.com"
+2023/04/06 15:08:19 [error] 5076#15208: *8 CreateFile() "D:\nginx-1.23.4/html/abcd" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abcd HTTP/1.1", host: "www.kylin.com"
+2023/04/06 15:08:41 [error] 5076#15208: *8 CreateFile() "D:\nginx-1.23.4/html/abcd" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /abcd HTTP/1.1", host: "www.kylin.com"
+2023/04/06 15:19:22 [emerg] 3528#16824: invalid number of arguments in "location" directive in D:\nginx-1.23.4/conf/nginx.conf:101
+2023/04/06 15:20:13 [emerg] 13040#11584: invalid location modifier "~=" in D:\nginx-1.23.4/conf/nginx.conf:101
+2023/04/06 15:59:59 [notice] 5952#17812: signal process started
+2023/04/06 16:00:04 [error] 18056#11524: *10 CreateFile() "D:\nginx-1.23.4/html/DEF" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /DEF HTTP/1.1", host: "www.kylin.com"
+2023/04/11 15:34:02 [error] 17304#3032: *1 CreateFile() "D:\nginx-1.23.4/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.chenhanlin.com, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/04/11 15:42:08 [notice] 17156#6792: signal process started
+2023/04/11 17:27:02 [notice] 15132#9348: signal process started
+2023/04/12 09:23:28 [notice] 12564#17492: signal process started
+2023/04/12 11:34:55 [notice] 3136#1796: signal process started
+2023/04/12 14:12:01 [notice] 17560#17592: signal process started
+2023/04/12 14:19:23 [emerg] 15544#10900: unknown log format "main" in D:\nginx-1.23.4/conf/nginx.conf:46
+2023/04/12 14:23:23 [emerg] 15912#5248: unknown log format "info" in D:\nginx-1.23.4/conf/nginx.conf:46
+2023/04/12 14:25:11 [notice] 12716#2028: signal process started
+2023/04/12 14:26:46 [notice] 7532#1236: signal process started
+2023/04/12 14:27:33 [notice] 16692#1176: signal process started
+2023/04/12 14:27:39 [error] 9864#6100: *75 CreateFile() "D:\nginx-1.23.4/html/springboot1/abc" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /springboot1/abc HTTP/1.1", host: "www.kylin.com"
+2023/04/12 14:27:47 [error] 9864#6100: *75 CreateFile() "D:\nginx-1.23.4/html/springboot2/abc" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /springboot2/abc HTTP/1.1", host: "www.kylin.com"
+2023/04/12 14:27:52 [error] 9864#6100: *75 CreateFile() "D:\nginx-1.23.4/html/springboot2/abc" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /springboot2/abc HTTP/1.1", host: "www.kylin.com"
+2023/04/12 14:29:01 [notice] 16656#7392: signal process started
+2023/04/12 14:29:48 [error] 8948#15104: *81 CreateFile() "D:\nginx-1.23.4/html/springboot" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /springboot HTTP/1.1", host: "www.kylin.com"
+2023/04/12 14:30:45 [notice] 15940#14564: signal process started
+2023/04/12 14:30:53 [error] 8948#15104: *87 CreateFile() "D:\nginx-1.23.4/html/springboot1/abc" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: www.kylin.com, request: "GET /springboot1/abc HTTP/1.1", host: "www.kylin.com"
+2023/04/12 15:33:16 [notice] 7184#2152: signal process started
